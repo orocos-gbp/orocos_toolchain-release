@@ -1,0 +1,12 @@
+Source: ros-hydro-orocos-toolchain
+Section: misc
+Priority: extra
+Maintainer: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-orocos-toolchain
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-catkin, ros-hydro-log4cpp, ros-hydro-ocl, ros-hydro-orogen, ros-hydro-rtt, ros-hydro-rtt-typelib, ros-hydro-typelib, ros-hydro-utilmm, ros-hydro-utilrb
+Description: This package provides the entire orocos_toolchain
