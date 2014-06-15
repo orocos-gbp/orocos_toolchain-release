@@ -1,0 +1,44 @@
+From a27329d575ecb3228c9722215746264cd404717e Mon Sep 17 00:00:00 2001
+From: Johannes Meyer <johannes@intermodalics.eu>
+Date: Sun, 15 Jun 2014 21:34:46 +0200
+Subject: [PATCH] remove git submodules for release
+
+---
+ .gitmodules |   24 ------------------------
+ 1 file changed, 24 deletions(-)
+ delete mode 100644 .gitmodules
+
+diff --git a/.gitmodules b/.gitmodules
+deleted file mode 100644
+index ce986a6..0000000
+--- a/.gitmodules
++++ /dev/null
+@@ -1,24 +0,0 @@
+-[submodule "rtt"]
+-	path = rtt
+-	url = ../rtt.git
+-[submodule "ocl"]
+-	path = ocl
+-	url = ../ocl.git
+-[submodule "orogen"]
+-	path = orogen
+-	url = ../orogen.git
+-[submodule "typelib"]
+-	path = typelib
+-	url = ../typelib.git
+-[submodule "utilmm"]
+-	path = utilmm
+-	url = ../utilmm.git
+-[submodule "utilrb"]
+-	path = utilrb
+-	url = ../utilrb.git
+-[submodule "log4cpp"]
+-	path = log4cpp
+-	url = ../log4cpp.git
+-[submodule "rtt_typelib"]
+-	path = rtt_typelib
+-	url = ../rtt_typelib.git
+\ No newline at end of file
+-- 
+1.7.9.5
+
